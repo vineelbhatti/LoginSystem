@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+
+  <title>User Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <button onclick="window.location.href = '/';">Back</button>
+<div class="jumbotron text-center">
+    <h1>User Registration</h1>
+        <h5>Already have an account?<button onclick="window.location.href = '/Login';">Login</button></h5>
+</div>
+
+    <form method="POST" class="text-center">
+        <h4>First Name</h4>
+<input type='text' name='FirstName' autocomplete='off' placeholder="FirstName" size="100" required>
+        <p></p>
+        <h4>Last Name</h4>
+<input type='text' name='LastName' autocomplete='off' placeholder="LastName" size="100" required>
+        <p></p>
+        <h4>Email</h4>
+<input type='text' name='Email' autocomplete='off' placeholder="Email" size="100" required>
+        <p></p>
+        <h4>Password</h4>
+<input type='text' name='Password' autocomplete='off' placeholder="Password" size="100" required>
+        <p></p>
+        <h4>Phone Number</h4>
+                <input type='text' name='PhoneNumber' autocomplete='off' placeholder="Phone Number" size="100" required>
+        <p></p>
+        <h4>Date of Birth</h4>
+        <input type='date' name='DateOfBirth' autocomplete='off' placeholder="Date of Birth" size="100" required>
+        <p></p>
+        <h4>Gender</h4>
+        <input type="radio" id="Male" name="fav_language" value="HTML">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="fav_language" value="CSS">
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Other" name="fav_language" value="JavaScript">
+  <label for="Other">Other</label><br><br>
+<h4>Select Your School</h4>
+  <select name="School" id="School">
+    <option value="Elementary">Elementary</option>
+    <option value="Middle">Middle</option>
+    <option value="High">High</option>
+    <option value="College">College</option>
+  </select>
+  <br><br>
+        <h4>Select Your Favorite Coding Languages:</h4>
+        <input type="checkbox" id="C" name="C" value="C">
+  <p>C</p>
+  <input type="checkbox" id="C++" name="C++" value="C++">
+  <p> C++</p>
+  <input type="checkbox" id="Python" name="Python" value="Python">
+  <p> Python</p>
+        <h4>Additional Information</h4>
+        <textarea type='text' name='Text' autocomplete='off' placeholder="Text"  cols="50" rows="10" required></textarea>
+        <p></p>
+        <input type='submit' name='Submit' placeholder="Submit" required>
+
+</form>
+</body>
+
+
+
+</body>
+</html>
