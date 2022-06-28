@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <button onclick="window.location.href = '/logout';">Logout</button>
+<div class="jumbotron text-center">
+    <h1>Welcome!</h1>
+    </div>
+    <div class='text-center'>
+<p>First Name: {{session['user-info']['FirstName']}}</p>
+<p>Last Name: {{session['user-info']['LastName']}}</p>
+<p>Email: {{session['user-info']['Email']}}</p>
+        </div>
+</body>
+</html>
